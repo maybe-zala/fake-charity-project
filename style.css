@@ -59,3 +59,15 @@ p{
   float: center;
 
   }
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar a {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+}
